@@ -1,0 +1,20 @@
+title: "Apliko Linux"
+description: "A modern, user-friendly Linux distribution"
+baseurl: "/apliko-linux"
+url: "https://yokaiansh.github.io"
+
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Enable optional features
+github: [metadata]
